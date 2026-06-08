@@ -1,44 +1,34 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>颂德医药库存查询系统</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html, body {
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            background: #fff;
-        }
-
-        /* 外层放大容器 */
-        .wrap {
-            width: 100%;
-            height: 100%;
-   /* 页面整体放大，解决字体小，1.1=放大10%、1.18=18% */
-            transform: scale(1.12);
-            transform-origin: left top;
-        }
-
-        /* iframe 自动填满容器 */
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-            display: block;
-        }
-    </style>
-</head>
-<body>
-    <div class="wrap">
-        <iframe src="https://u0a1esi867.jiandaoyun.com/dash/6a236aaaf658e1d38e3ae275?embed=true"></iframe>
-    </div>
-</body>
-</html>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+     <title>药材库存明细表</title>
+     <title>颂德医药库存查询系统</title>
+     <style>
+         * {margin: 0;padding: 0;box-sizing: border-box;}
+         html, body {
+             height: 100vh;
+             width: 100vw;
+             overflow: hidden;
+         }
+         .wrap{
+             width:100%;
+             height:100%;
+             /* 页面整体放大，解决字体小，1.1=放大10%、1.18=18% */
+             transform: scale(1.18);
+             transform-origin: 0 0;
+         }
+         iframe {
+             width: calc(100% / 1.18);
+             height: calc(100% / 1.18);
+             border: none;
+             display:block;
+         }
+     </style>
+ </head>
+ <body>
+ <div class="wrap">
+     <!-- 保留你的简道云原链接 -->
+ <iframe src="https://u0a1esi867.jiandaoyun.com/dash/6a236aaaf658e1d38e3ae275?embed=true"></iframe>
+  </div>
+ </body>
+ </html>
